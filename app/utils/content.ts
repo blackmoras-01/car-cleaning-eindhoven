@@ -1,0 +1,252 @@
+export type Language = 'NL' | 'EN';
+
+export const content = {
+  nav: {
+    NL: {
+      services: 'Diensten',
+      heritage: 'Ons Verhaal',
+      gallery: 'Galerij',
+      contact: 'Contact',
+      bookNow: 'Plan een afspraak',
+    },
+    EN: {
+      services: 'Services',
+      heritage: 'Our Story',
+      gallery: 'Gallery',
+      contact: 'Contact',
+      bookNow: 'Book Appointment',
+    },
+  },
+
+  hero: {
+    NL: {
+      eyebrow: 'PREMIUM AUTODETAILING · EINDHOVEN',
+      headline: 'Maak Indruk.',
+      headlineSub: 'Perfecte Detailing.',
+      sub: 'Al meer dan vier decennia de standaard in luxe autodetailing in de regio Eindhoven.',
+      cta: 'Plan een afspraak',
+      ctaSub: 'Gratis offerte · Vrijblijvend',
+    },
+    EN: {
+      eyebrow: 'PREMIUM AUTOMOTIVE DETAILING · EINDHOVEN',
+      headline: 'Make Heads Turn.',
+      headlineSub: 'Perfect Detailing.',
+      sub: 'Setting the standard in luxury automotive detailing in the Eindhoven region for over four decades.',
+      cta: 'Book an Appointment',
+      ctaSub: 'Free quote · No obligations',
+    },
+  },
+
+  heritage: {
+    NL: {
+      tag: 'SINDS 1981',
+      title: 'Meer dan vier decennia perfectie.',
+      p1: 'Wat in 1981 begon als professionele showroomvoorbereiding voor grote autodealers, groeide uit tot de meest vertrouwde naam in privé luxe autodetailing in de regio Eindhoven.',
+      p2: 'Caspar nam het stuur over en bracht het bedrijf naar een nieuw niveau — met dezelfde toewijding aan perfectie, maar met een moderne aanpak gericht op de meest veeleisende autoliefhebbers van Nederland.',
+      p3: 'Elk voertuig dat onze werkplaats binnenkomt, wordt behandeld als een meesterwerk. Van tijdloze klassiekers tot moderne supersports.',
+      stat1: '40+',
+      stat1Label: 'Jaar Ervaring',
+      stat2: '5000+',
+      stat2Label: 'Tevreden Klanten',
+      stat3: '100%',
+      stat3Label: 'Toewijding',
+    },
+    EN: {
+      tag: 'SINCE 1981',
+      title: 'Over four decades of perfection.',
+      p1: 'What began in 1981 as professional showroom preparation for major car dealerships grew into the most trusted name in private luxury automotive detailing in the Eindhoven region.',
+      p2: 'Caspar took the wheel and elevated the business to a new level — with the same dedication to perfection, but with a modern approach aimed at the most discerning car enthusiasts in the Netherlands.',
+      p3: 'Every vehicle that enters our workshop is treated as a masterpiece. From timeless classics to modern supercars.',
+      stat1: '40+',
+      stat1Label: 'Years Experience',
+      stat2: '5000+',
+      stat2Label: 'Happy Clients',
+      stat3: '100%',
+      stat3Label: 'Dedication',
+    },
+  },
+
+  services: {
+    NL: {
+      tag: 'ONZE DIENSTEN',
+      title: 'Uitmuntendheid in elk detail.',
+      sub: 'Drie gespecialiseerde pakketten, afgestemd op uw wensen.',
+      cards: [
+        {
+          title: 'Interieur',
+          desc: 'Van diepgaande reiniging tot leerbehandeling — elk oppervlak wordt met vakmanschap behandeld.',
+          features: [
+            'Vacuüm & stofreiniging',
+            'Lederbehandeling & conditioning',
+            'Dashboard & console detailing',
+            'Dieptereiniging tapijtmatten',
+          ],
+        },
+        {
+          title: 'Exterieur',
+          desc: 'Herstel de perfecte glans en bescherm uw lak met professionele precisietechnieken.',
+          features: [
+            'Machine polijsten',
+            'Wax & sealant behandeling',
+            'Krasverwijdering',
+            'Velgen & bandenverzorging',
+          ],
+        },
+        {
+          title: 'Glas Coating',
+          desc: 'Onze vlaggenschip service. Nanobescherming die jarenlang standhoudt en uw auto altijd showroomklaar maakt.',
+          features: [
+            'Keramische nanocoating',
+            'Hydrofobische bescherming',
+            '3+ jaar garantie',
+            'Showroom glans finish',
+          ],
+        },
+      ],
+    },
+    EN: {
+      tag: 'OUR SERVICES',
+      title: 'Excellence in every detail.',
+      sub: 'Three specialized packages, tailored to your needs.',
+      cards: [
+        {
+          title: 'Interior',
+          desc: 'From deep cleaning to leather treatment — every surface is handled with expert craftsmanship.',
+          features: [
+            'Vacuum & dust removal',
+            'Leather treatment & conditioning',
+            'Dashboard & console detailing',
+            'Deep carpet cleaning',
+          ],
+        },
+        {
+          title: 'Exterior',
+          desc: 'Restore the perfect gloss and protect your paint with professional precision techniques.',
+          features: [
+            'Machine polishing',
+            'Wax & sealant treatment',
+            'Scratch removal',
+            'Wheel & tire care',
+          ],
+        },
+        {
+          title: 'Glass Coating',
+          desc: 'Our flagship service. Nano protection that lasts for years, keeping your car showroom-ready at all times.',
+          features: [
+            'Ceramic nano coating',
+            'Hydrophobic protection',
+            '3+ year warranty',
+            'Showroom gloss finish',
+          ],
+        },
+      ],
+    },
+  },
+
+  gallery: {
+    NL: {
+      tag: 'GALERIJ',
+      title: 'Resultaten spreken voor zich.',
+      sub: 'Elk voertuig, een meesterwerk.',
+    },
+    EN: {
+      tag: 'GALLERY',
+      title: 'Results speak for themselves.',
+      sub: 'Every vehicle, a masterpiece.',
+    },
+  },
+
+  booking: {
+    NL: {
+      tag: 'AFSPRAAK MAKEN',
+      title: 'Plan uw bezoek.',
+      sub: 'Kies uw dienst, datum en tijdstip. Wij nemen contact met u op ter bevestiging.',
+      step1: 'Dienst',
+      step2: 'Datum',
+      step3: 'Tijdstip',
+      step4: 'Uw gegevens',
+      namePlaceholder: 'Naam',
+      phonePlaceholder: 'Telefoon / E-mail',
+      cta: 'Verstuur aanvraag',
+      ctaNote: 'Wij bevestigen uw afspraak binnen 24 uur.',
+      sunday: 'Gesloten',
+      dirTag: 'HOE U ONS VINDT',
+      dirTitle: 'Broekakkerseweg 30',
+      dirSub: '5641 PC Eindhoven',
+      hoursTitle: 'Openingstijden',
+      hours: [
+        { day: 'Maandag – Vrijdag', time: '08:00 – 17:30' },
+        { day: 'Zaterdag', time: '09:00 – 14:00' },
+        { day: 'Zondag', time: 'Gesloten' },
+      ],
+      routeLabel: 'Route plannen',
+      months: ['Januari','Februari','Maart','April','Mei','Juni','Juli','Augustus','September','Oktober','November','December'],
+      days: ['Ma','Di','Wo','Do','Vr','Za','Zo'],
+      services: ['Interieur', 'Exterieur', 'Glas Coating'],
+      serviceDesc: ['~3–4 uur', '~4–6 uur', '~1–2 dagen'],
+    },
+    EN: {
+      tag: 'BOOK APPOINTMENT',
+      title: 'Plan your visit.',
+      sub: 'Choose your service, date and time. We will confirm your appointment within 24 hours.',
+      step1: 'Service',
+      step2: 'Date',
+      step3: 'Time slot',
+      step4: 'Your details',
+      namePlaceholder: 'Name',
+      phonePlaceholder: 'Phone / Email',
+      cta: 'Send request',
+      ctaNote: 'We confirm your appointment within 24 hours.',
+      sunday: 'Closed',
+      dirTag: 'HOW TO FIND US',
+      dirTitle: 'Broekakkerseweg 30',
+      dirSub: '5641 PC Eindhoven',
+      hoursTitle: 'Opening hours',
+      hours: [
+        { day: 'Monday – Friday', time: '08:00 – 17:30' },
+        { day: 'Saturday', time: '09:00 – 14:00' },
+        { day: 'Sunday', time: 'Closed' },
+      ],
+      routeLabel: 'Plan route',
+      months: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+      days: ['Mo','Tu','We','Th','Fr','Sa','Su'],
+      services: ['Interior', 'Exterior', 'Glass Coating'],
+      serviceDesc: ['~3–4 hours', '~4–6 hours', '~1–2 days'],
+    },
+  },
+
+  footer: {
+    NL: {
+      tagline: 'Premium autodetailing. Eindhoven, Nederland.',
+      address: 'Broekakkerseweg 30, 5641 PC Eindhoven',
+      phone: '040 211 6211',
+      email: 'planning@carcleaningeindhoven.nl',
+      follow: 'Volg ons op Sociale Media',
+      rights: '© 2026 Car Cleaning Eindhoven. Alle rechten voorbehouden.',
+      linksTitle: 'Navigatie',
+      contactTitle: 'Contact',
+      links: {
+        services: 'Diensten',
+        heritage: 'Ons Verhaal',
+        gallery: 'Galerij',
+        book: 'Afspraak Maken',
+      },
+    },
+    EN: {
+      tagline: 'Premium automotive detailing. Eindhoven, Netherlands.',
+      address: 'Broekakkerseweg 30, 5641 PC Eindhoven',
+      phone: '040 211 6211',
+      email: 'planning@carcleaningeindhoven.nl',
+      follow: 'Follow us on Social Media',
+      rights: '© 2025 Car Cleaning Eindhoven. All rights reserved.',
+      linksTitle: 'Navigation',
+      contactTitle: 'Contact',
+      links: {
+        services: 'Services',
+        heritage: 'Our Story',
+        gallery: 'Gallery',
+        book: 'Book Appointment',
+      },
+    },
+  },
+};
